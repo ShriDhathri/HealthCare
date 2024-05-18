@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="remainder.css">
+  <title>Health care</title>
+</head>
+<body>
+  <div class="container">
+    <h2 style="text-align: center;">Remainder For Your Medicine</h2>
+
+    <label for="">Tablet 1:</label>
+    <input type="text" id="title"/>
+    <label for="">Instructions(If Any):</label>
+    <input type="text" id="Instructions" />
+    <label for="">Time:</label>
+    <input type="time" id="time" />
+    <br>
+    <button style="width: 50%; align-items: center;" onclick="scheduleRemainder()">Schedule Remainder</button>
+
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Tablet 1</th>
+          <th>Instructions(If Any)</th>
+          <th>Time</th>
+        </tr>
+      </thead>
+      <tbody id="remainderTableBody"></tbody>
+    </table>
+  </div>
+
+  <audio src="" id="notificationSound"></audio>
+
+  
+</body>
+</html>
